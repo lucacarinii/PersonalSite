@@ -1,8 +1,8 @@
 {
-  "name": "reactniceresume",
+  "name": "lucacarini-portfolio",
   "version": "0.1.0",
+  "homepage": "http://lucacarini.it",
   "private": true,
-  "homepage": "./",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.11.4",

@@ -1,6 +1,28 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import Slide from 'react-reveal'
 
+const ReadMore = ({ props }) => {
+  const text = props.toString()
+  const [isReadMore, setIsReadMore] = useState(true)
+  const textVerifyLength = text.length > 200 ? true : false
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore)
+  }
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 200) : text}
+      <span onClick={toggleReadMore} className="read-or-hide">
+        {!textVerifyLength ? (
+          ''
+        ) : isReadMore ? (
+          <b> ...read more</b>
+        ) : (
+          <b> show less</b>
+        )}
+      </span>
+    </p>
+  )
+}
 class Resume extends Component {
   getRandomColor() {
     let letters = '0123456789ABCDEF'
@@ -31,13 +53,15 @@ class Resume extends Component {
     const work = this.props.data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
+          <h2>{work.company}</h2>
           <p className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <b style={{ color: 'black' }}>Technologies: </b>
           <p>{work.technologies}</p>
+          <b style={{ color: 'black' }}>Description: </b>
+          <ReadMore props={work.description} />
         </div>
       )
     })
