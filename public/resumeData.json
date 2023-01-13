@@ -44,7 +44,7 @@
         "company":"Nexi",
         "title":"Software Engineer Specialist",
         "years":"January 2022 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "description":"Initially I worked in a team on a solution for online and mobile pos payments, developed in javaEE, deployed on a server with wildfly11 installed and managing the new developments, the application maintenance part and the relationship with the customer. Later I was introduced to a new project, that was about rewriting a solution developed in a monolith architecture, into a microservices one, with spring boot, istio, docker and kubernetes. I'm also covering the role of technical lead, managing a team of four resources, the relationships with the customers and the estimates for the various projects.",
         "technologies":"Java 11/ JavaEE / Spring Boot / Kibana / Grafana / Kubernetes / Istio / Jenkins / Microservices / React"
       },
       {

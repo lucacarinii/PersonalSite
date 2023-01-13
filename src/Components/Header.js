@@ -32,31 +32,43 @@ class Header extends Component {
 
           <ul id="nav" className="nav">
             <li className="current">
-              <a className="smoothscroll" href="#home">
+              <a className="smoothscroll" id="mouseOver" href="#home">
                 Home
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className="smoothscroll" id="mouseOver" href="#about">
                 About
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" id="mouseOver" href="#resume">
                 Resume
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a
+                className="smoothscroll"
+                id="mouseOver"
+                href="resumes/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Resume
+              </a>
+            </li>
+
+            <li>
+              <a className="smoothscroll" id="mouseOver" href="#portfolio">
                 Works
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a className="smoothscroll" id="mouseOver" href="#contact">
                 Contact
               </a>
             </li>
