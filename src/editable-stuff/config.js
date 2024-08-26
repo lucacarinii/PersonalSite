@@ -33,7 +33,7 @@ const about = {
   imageLink: require('../editable-stuff/aboutmePic.png'),
   imageSize: 375,
   message:
-    "Ehy, I am Luca, 25 yo software engineer from Italy. I love to keep learning new things, IT and non-IT (I'm learning French). Outside of work I love playing tennis, soccer and going to the gym (mens sana in corpore sano). I have a passion for languages, right now I can speak italian, english and spanish and french soon (I hope). I also love playing electric guitar (it helps me to free my mind). If you want to create something, contact me, I'll offer you a good coffee ;).",
+    "Hey there! I'm Luca, a 28-year-old software engineer from Italy with a passion for continuous learning, whether it's tech-related or not (currently improving my spanish). When I'm not coding, you'll find me on the tennis court, soccer field, or at the gym, living by the motto mens sana in corpore sano. Languages fascinate me, I speak Italian, English, and Spanish and Java 😉. Music is another love of mine; playing the electric guitar is my go-to way to unwind and get inspired. Got an idea? Let’s bring it to life! Reach out, and I’ll brew us a great cup of coffee. ☕️",
   resume: require('../editable-stuff/resume.pdf'),
 }
 
@@ -80,16 +80,21 @@ const skills = {
   heading: 'Skills',
   hardSkills: [
     { name: 'Java', value: 100 },
+    { name: 'SpringBoot', value: 100 },
     { name: 'Microservices', value: 100 },
     { name: 'Data Structures', value: 85 },
     { name: 'C', value: 85 },
-    { name: 'Relational DB', value: 85 },
+    { name: 'Oracle DB', value: 85 },
+    { name: 'MySQL DB', value: 75 },
+    { name: 'MS SQL Server', value: 85 },
     { name: 'SQL', value: 85 },
     { name: 'JavaScript', value: 75 },
     { name: 'React', value: 75 },
-    { name: 'Docker', value: 75 },
-    { name: 'No Relational DB', value: 65 },
-    { name: 'Kubernetes', value: 65 },
+    { name: 'Apache Flink', value: 75 },
+    { name: 'Kafka', value: 75 },
+    { name: 'IBM Event Streams', value: 85 },
+    { name: 'MongoDB', value: 65 },
+    { name: 'Openshift', value: 85 },
   ],
   softSkills: [
     { name: 'Goal-Oriented', value: 80 },
